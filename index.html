@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="mobile.css" >
+    <link rel="stylesheet" href="stylemediaquery.css">
+</head>
+<body>
+    
+    <main>
+        <section id="login">
+            <div id="img">*</div>
+            <form action="login.php" method="post" autocomplete="on" id="form">
+                <h1>Login</h1>
+                <p id="principal">Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>   
+        
+       
+           
+                <p>
+                    <label for="iusa">Usuario:</label>
+                    <input type="text" name="usuario" id="iusa" placeholder="Usuario" required autocomplete="name" minlength="4" maxlength="9">
+                </p>
+                <p>
+                    <label for="isen"> Senha:</label>
+                    <input type="password" name="senha" id="isen" required placeholder="Senha" autocomplete="new-password" min="5" max="8">
+                </p>
+               
+                <p><input type="submit" value="Enviar"></p>
+                <p><input type="submit" value="Esqueci a senha"></p>
+            </form>
+
+        </section>
+    </main>
+    
+</body>
+</html>
