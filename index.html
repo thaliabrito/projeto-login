@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    
+    
     <title>Login</title>
     <link rel="stylesheet" href="mobile.css" >
     <link rel="stylesheet" href="stylemediaquery.css">
@@ -18,17 +21,22 @@
         
        
            
-                <p>
-                    <label for="iusa">Usuario:</label>
-                    <input type="text" name="usuario" id="iusa" placeholder="Usuario" required autocomplete="name" minlength="4" maxlength="9">
-                </p>
-                <p>
-                    <label for="isen"> Senha:</label>
-                    <input type="password" name="senha" id="isen" required placeholder="Senha" autocomplete="new-password" min="5" max="8">
-                </p>
+                
+                    <div id="in">
+                        <span class="material-symbols-outlined">person</span>
+                        <label for="iemail"></label>
+                        <input type="email" name="email" id="iemail" required placeholder="  Login" autocomplete="email">
+                    </div>
+                
+                
+                    <div id="in">
+                        <span  class="material-symbols-outlined">key</span>
+                        <label for="isen"></label>
+                        <input type="password" name="senha" id="isen" required placeholder="  Senha" autocomplete="new-password" min="5" max="8">
+                    </div>
                
                 <p><input type="submit" value="Enviar"></p>
-                <p><input type="submit" value="Esqueci a senha"></p>
+                <a id="botao"  href="esqueci.html">Esqueci a senha <span class="material-symbols-outlined">mail</span></a>
             </form>
 
         </section>
