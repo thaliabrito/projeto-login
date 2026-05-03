@@ -21,6 +21,7 @@
    }
   section#login> div#img{
     display: block;
+    background-color: black;
     background-image: url(imagens/maoetela1.jpg);
     height: 200px;
     background-repeat: no-repeat;
@@ -34,7 +35,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     width: 240px;
-    height: 410px;
+    height: 500px;
     padding: 10px;
     overflow: hidden;
     background-color: rgba(255, 255, 255, 0.854);
@@ -59,44 +60,47 @@
      
    }
    p>input{
-    margin-top: 15px;
+    margin-top: 25px;
     display: block;
     border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.886);
-    height: 30px;
+    background-color: rgba(0, 0, 0, 0.673);
+    height: 35px;
     width:100%;
     color: white;
     cursor: pointer;
     text-shadow: 6px 6px 8px rgba(0, 0, 0, 0.815);
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.576),
-     -5px 5px 10px rgba(0, 0, 0, 0.576);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.375),
+     -5px 5px 10px rgba(0, 0, 0, 0.375);
     
     
    }
     a#botao {
      text-decoration: none;
-     background-color:rgba(0, 0, 0, 0.886);
+     background-color:rgba(0, 0, 0, 0.673);
      width: 96%;
-     height: 30px;
+     height: 35px;
+     margin-top: 10px;
      margin-left: 6px;
      color: white;
      border-radius: 10px;
      display: block;
      text-align: center;
      text-shadow: 6px 6px 8px rgba(0, 0, 0, 0.815);
-     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.576),
-     -5px 5px 10px rgba(0, 0, 0, 0.576);
+     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.375),
+     -5px 5px 10px rgba(0, 0, 0, 0.375);
      
     }
     div#in>input{
-      border-radius: 10px;
       width: 80%;
+      padding:2px;
+      border:1px solid rgba(128, 128, 128, 0.392);
+      margin-bottom: 10px;
      
     }a#botao:hover{
-      background-color: rgba(255, 255, 255, 0.114);
-      color: rgba(70, 65, 65, 0.638);
+      background-color: rgba(205, 187, 187, 0.446);
+      color: rgba(0, 0, 0, 0.638);
     }
    p> input:hover{
-    background-color:rgba(255, 255, 255, 0.114);
-    color: rgba(70, 65, 65, 0.638);
+    background-color:rgba(205, 187, 187, 0.446);
+    color: rgba(0, 0, 0, 0.638);
    }
