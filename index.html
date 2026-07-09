@@ -1,46 +1,45 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
-    
-    
+
+
     <title>Login</title>
-    <link rel="stylesheet" href="mobile.css" >
+    <link rel="stylesheet" href="mobile.css">
     <link rel="stylesheet" href="stylemediaquery.css">
 </head>
+
 <body>
-    
     <main>
         <section id="login">
-            <div id="img">*</div>
+
             <form action="login.php" method="post" autocomplete="on" id="form">
                 <h1>Login</h1>
-                <p id="principal">Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>   
-        
-       
-           
-                
-                    <div id="in">
-                        <span class="material-symbols-outlined">person</span>
-                        <label for="iemail"></label>
-                        <input type="email" name="email" id="iemail" required placeholder="  Login" autocomplete="email">
-                    </div>
-                
-                
-                    <div id="in">
-                        <span  class="material-symbols-outlined">key</span>
-                        <label for="isen"></label>
-                        <input type="password" name="senha" id="isen" required placeholder="  Senha" autocomplete="new-password" min="5" max="8">
-                    </div>
-               
-                <p><input type="submit" value="Enviar"></p>
-                <a id="botao"  href="esqueci.html">Esqueci a senha <span class="material-symbols-outlined">mail</span></a>
+                <p id="principal">Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configuraçôes no seu ambiente </p>
+
+                <div >
+                    <span class="material-symbols-outlined">person</span>
+                    <label for="iemail"></label>
+                    <input type="email" name="email" id="loginesenha" required placeholder="  Login" autocomplete="email">
+                </div>
+
+                <div >
+                    <span class="material-symbols-outlined">key</span>
+                    <label for="isen"></label>
+                    <input type="password" name="senha" id="loginesenha" required placeholder="  Senha"
+                        autocomplete="new-password" min="5" max="8">
+                </div>
+
+                <p><input type="submit" value="Enviar" id="enviar"></p>
+                <a id="botao" href="esqueci.html">Esqueci a senha <span
+                class="material-symbols-outlined">mail</span></a>
             </form>
 
         </section>
     </main>
-    
+
 </body>
 </html>
